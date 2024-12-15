@@ -1,0 +1,55 @@
+.card:hover {
+  transform: scale(1.005);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.45s;
+}
+
+.card{
+  /* width: 500px; */
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  height: 260px;
+  padding: 3px;
+  border-radius: 22px;
+}
+
+.card {
+  border-radius: 17px;
+  display: flex;
+  background-color: #EAEAEA;
+}
+
+.card-title {
+  font-family: Cambria;
+  padding: 6px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.card-text {
+  padding: 6px;
+  margin: 0px;
+  color: gray black;
+}
+.card_button{
+  margin: 10px;
+  border-radius: 10px;
+}
+.class-body{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 8px;
+  
+}
+
+.non_button{
+  /* display:
+  margin: ; */
+  padding-left: 20px;
+  font-size: 19px;
+  font-weight: 600;
+}

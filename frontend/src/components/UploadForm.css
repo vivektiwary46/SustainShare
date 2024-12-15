@@ -1,0 +1,187 @@
+/* 
+.new-form {
+  background-color: rgb(242, 255, 242);
+  padding: 1rem;
+  margin: 2% auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Ubuntu, sans-serif;
+  width: 80%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.new-form__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-form__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-form__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-form__actions {
+    text-align: right;
+  }
+  .new-form__actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-form__actions button:hover,
+  .new-form__actions button:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+  
+  .new-form__actions button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-form__actions button.alternative:hover,
+  .new-form__actions button.alternative:active {
+    background-color: #ddb3f8;
+  } */
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  :root{
+    --c1: #00ABB3;
+    --c2: #3C4048;
+    --c3: #B2B2B2;
+    --c4: #EAEAEA;
+}
+
+
+#FormMain {
+  width: 95%;
+  /* margin: auto; */
+  position: relative;
+  top: 19%;
+  /* right: 2%; */
+  margin: 0 auto 0 auto;
+  /* border: 2px solid black;
+     */
+}
+.new-form {
+  /* padding: 5px; */
+  background-color: rgba(178, 178, 178,0.65);
+  opacity: 0.95;
+  padding: 1rem;
+  margin: 2% auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Ubuntu, sans-serif;
+  width: 80%;
+  border-radius: 12px;
+  text-align: center;
+  border: 1.5px solid rgb(45, 44, 44);
+  box-shadow: 0 4px 8px 0 rgba(178,178,178, 0.5), 0 6px 20px 0 rgba(178,178,178, 0.5);
+}
+
+.new-form__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-form__control{
+  /* margin:18px 10px */
+  margin: 15px;
+}
+
+.new-form__control label {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.new-form__control input {
+  /* opacity: 1; */
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #918c8c;
+  width: 20rem;
+  max-width: 90%;
+}
+
+.new-form__control input::placeholder {
+  color: var(--c2);
+  font-size: 15px;
+}
+
+.new-form__actions {
+  text-align: right;
+}
+.new-form__actions button {
+  font: bolder;
+  /* font-size: 20px; */
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid var(--c1);
+  background-color: var(--c1);
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  
+}
+
+.new-form__actions button:hover,
+.new-form__actions button:active {
+  transition: 0.4s;
+  background-color: var(--c1);
+  border-color: var(--c1);
+  font-weight: bolder;
+  color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.new-form__actions button.alternative {
+  color:var(--c1);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-form__actions button.alternative:hover,
+.new-form__actions button.alternative:active {
+  background-color: #ddb3f8;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(9, 111, 12, 0);
+  opacity: 1;
+
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
